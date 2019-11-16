@@ -9,10 +9,10 @@ ul#menu li {
 }
 
 ul#menu li a {
-    background-color: #ffffff;
+    background-color: transparent;
     padding: 10px 20px;
     text-decoration: none;
-    color: #696969;
+    color: white;
     border-radius: 4px 4px 0 0;
 }
 
