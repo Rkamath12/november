@@ -15,6 +15,21 @@
            <input type="submit" value="Send" />
 
      </form>
+
+		 <script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='THE REDIRECT LINK HERE';}"></iframe>
+
+<form action="FORMACTION CODE HERE" method="post" target="hidden_iframe"
+onsubmit="submitted=true;">
+		 <label>First Name</label>
+		 <input name="ENTRY HERE" type="firstname" placeholder="First Name" />
+		 <br>
+		 <label>Last Name</label>
+		 <input name="ENTRY HERE" type="lastname" placeholder="Last Name"/>
+		 <br>
+		 <input type="submit" value="Send" />
+
+</form>
 </html>
 </body>
 </html>
